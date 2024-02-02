@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C04FECDB2B5FFF45008715F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FECDA2B5FFF45008715F9 /* HomeView.swift */; };
+		C04FECDD2B62B863008715F9 /* terminosYcondicionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FECDC2B62B863008715F9 /* terminosYcondicionesView.swift */; };
+		C09F49162B5F07DA007E1639 /* Dermacycle2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49152B5F07DA007E1639 /* Dermacycle2App.swift */; };
+		C09F49182B5F07DA007E1639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49172B5F07DA007E1639 /* ContentView.swift */; };
+		C09F491A2B5F07DC007E1639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09F49192B5F07DC007E1639 /* Assets.xcassets */; };
+		C09F491D2B5F07DC007E1639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09F491C2B5F07DC007E1639 /* Preview Assets.xcassets */; };
+		C09F49282B5F088A007E1639 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09F49272B5F088A007E1639 /* Launch Screen.storyboard */; };
+		C09F492A2B5F090F007E1639 /* TratamientosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49292B5F090F007E1639 /* TratamientosView.swift */; };
+		C09F492C2B5F0921007E1639 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F492B2B5F0921007E1639 /* UserView.swift */; };
+		C09F492E2B5F0959007E1639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F492D2B5F0959007E1639 /* AppDelegate.swift */; };
+		C09F49302B5F0975007E1639 /* PromocionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F492F2B5F0975007E1639 /* PromocionesView.swift */; };
+		C09F49322B5F097F007E1639 /* NotificacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49312B5F097F007E1639 /* NotificacionesView.swift */; };
+		C09F49342B5F0989007E1639 /* CalendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49332B5F0989007E1639 /* CalendarioView.swift */; };
+		C09F49362B5F09C5007E1639 /* TratamientosModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49352B5F09C5007E1639 /* TratamientosModelo.swift */; };
+		C09F49382B5F09D1007E1639 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49372B5F09D1007E1639 /* Usuario.swift */; };
+		C09F493A2B5F09DE007E1639 /* ContactoModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49392B5F09DE007E1639 /* ContactoModelo.swift */; };
+		C09F493C2B5F0A2F007E1639 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F493B2B5F0A2F007E1639 /* InputView.swift */; };
+		C09F493E2B5F0A46007E1639 /* SettingsNewRoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F493D2B5F0A46007E1639 /* SettingsNewRoad.swift */; };
+		C09F49402B5F0A7C007E1639 /* TratamientosFacialesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F493F2B5F0A7C007E1639 /* TratamientosFacialesView.swift */; };
+		C09F49422B5F0A8A007E1639 /* TratamientosCorporalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49412B5F0A8A007E1639 /* TratamientosCorporalesView.swift */; };
+		C09F49442B5F0AA3007E1639 /* DepilacionLaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49432B5F0AA3007E1639 /* DepilacionLaserView.swift */; };
+		C09F49462B5F0AC7007E1639 /* EsteticaMasculinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49452B5F0AC7007E1639 /* EsteticaMasculinaView.swift */; };
+		C09F494A2B5F0B1B007E1639 /* RegistracionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49492B5F0B1B007E1639 /* RegistracionView.swift */; };
+		C09F494C2B5F0B2C007E1639 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F494B2B5F0B2C007E1639 /* ProfileView.swift */; };
+		C09F494E2B5F0B51007E1639 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F494D2B5F0B51007E1639 /* AuthViewModel.swift */; };
+		C09F49502B5F0B75007E1639 /* TratamientosCorporalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F494F2B5F0B75007E1639 /* TratamientosCorporalesViewModel.swift */; };
+		C09F49522B5F0B86007E1639 /* TratamientosFacialesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49512B5F0B86007E1639 /* TratamientosFacialesViewModel.swift */; };
+		C09F49542B5F0BA9007E1639 /* EsteticaMasculinaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49532B5F0BA9007E1639 /* EsteticaMasculinaViewModel.swift */; };
+		C09F49562B5F0BB8007E1639 /* DepilacionLaserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49552B5F0BB8007E1639 /* DepilacionLaserViewModel.swift */; };
+		C09F49582B5F0BC8007E1639 /* PromocionesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F49572B5F0BC8007E1639 /* PromocionesViewModel.swift */; };
+		C09F495D2B5FF480007E1639 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C09F495C2B5FF480007E1639 /* FirebaseAppCheck */; };
+		C09F495F2B5FF480007E1639 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C09F495E2B5FF480007E1639 /* FirebaseAppDistribution-Beta */; };
+		C09F49612B5FF480007E1639 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49602B5FF480007E1639 /* FirebaseAuth */; };
+		C09F49632B5FF480007E1639 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49622B5FF480007E1639 /* FirebaseAuthCombine-Community */; };
+		C09F49652B5FF480007E1639 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49642B5FF480007E1639 /* FirebaseCrashlytics */; };
+		C09F49672B5FF480007E1639 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49662B5FF480007E1639 /* FirebaseDatabase */; };
+		C09F49692B5FF480007E1639 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49682B5FF480007E1639 /* FirebaseDatabaseSwift */; };
+		C09F496B2B5FF480007E1639 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C09F496A2B5FF480007E1639 /* FirebaseFirestore */; };
+		C09F496D2B5FF480007E1639 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C09F496C2B5FF480007E1639 /* FirebaseFirestoreCombine-Community */; };
+		C09F496F2B5FF480007E1639 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C09F496E2B5FF480007E1639 /* FirebaseFirestoreSwift */; };
+		C09F49712B5FF480007E1639 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49702B5FF480007E1639 /* FirebaseFunctions */; };
+		C09F49732B5FF480007E1639 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49722B5FF480007E1639 /* FirebaseFunctionsCombine-Community */; };
+		C09F49752B5FF480007E1639 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49742B5FF480007E1639 /* FirebaseInstallations */; };
+		C09F49772B5FF480007E1639 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49762B5FF480007E1639 /* FirebaseMLModelDownloader */; };
+		C09F49792B5FF480007E1639 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C09F49782B5FF480007E1639 /* FirebaseMessaging */; };
+		C09F497B2B5FF480007E1639 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C09F497A2B5FF480007E1639 /* FirebaseStorage */; };
+		C09F497D2B5FF480007E1639 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C09F497C2B5FF480007E1639 /* FirebaseStorageCombine-Community */; };
+		C09F497F2B5FFAC0007E1639 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C09F497E2B5FFAC0007E1639 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C04FECDA2B5FFF45008715F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C04FECDC2B62B863008715F9 /* terminosYcondicionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terminosYcondicionesView.swift; sourceTree = "<group>"; };
+		C09F49122B5F07DA007E1639 /* Dermacycle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dermacycle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09F49152B5F07DA007E1639 /* Dermacycle2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dermacycle2App.swift; sourceTree = "<group>"; };
+		C09F49172B5F07DA007E1639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C09F49192B5F07DC007E1639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09F491C2B5F07DC007E1639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C09F49272B5F088A007E1639 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C09F49292B5F090F007E1639 /* TratamientosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosView.swift; sourceTree = "<group>"; };
+		C09F492B2B5F0921007E1639 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		C09F492D2B5F0959007E1639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C09F492F2B5F0975007E1639 /* PromocionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesView.swift; sourceTree = "<group>"; };
+		C09F49312B5F097F007E1639 /* NotificacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesView.swift; sourceTree = "<group>"; };
+		C09F49332B5F0989007E1639 /* CalendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioView.swift; sourceTree = "<group>"; };
+		C09F49352B5F09C5007E1639 /* TratamientosModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosModelo.swift; sourceTree = "<group>"; };
+		C09F49372B5F09D1007E1639 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		C09F49392B5F09DE007E1639 /* ContactoModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoModelo.swift; sourceTree = "<group>"; };
+		C09F493B2B5F0A2F007E1639 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		C09F493D2B5F0A46007E1639 /* SettingsNewRoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNewRoad.swift; sourceTree = "<group>"; };
+		C09F493F2B5F0A7C007E1639 /* TratamientosFacialesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosFacialesView.swift; sourceTree = "<group>"; };
+		C09F49412B5F0A8A007E1639 /* TratamientosCorporalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosCorporalesView.swift; sourceTree = "<group>"; };
+		C09F49432B5F0AA3007E1639 /* DepilacionLaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepilacionLaserView.swift; sourceTree = "<group>"; };
+		C09F49452B5F0AC7007E1639 /* EsteticaMasculinaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteticaMasculinaView.swift; sourceTree = "<group>"; };
+		C09F49492B5F0B1B007E1639 /* RegistracionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistracionView.swift; sourceTree = "<group>"; };
+		C09F494B2B5F0B2C007E1639 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C09F494D2B5F0B51007E1639 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C09F494F2B5F0B75007E1639 /* TratamientosCorporalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosCorporalesViewModel.swift; sourceTree = "<group>"; };
+		C09F49512B5F0B86007E1639 /* TratamientosFacialesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratamientosFacialesViewModel.swift; sourceTree = "<group>"; };
+		C09F49532B5F0BA9007E1639 /* EsteticaMasculinaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteticaMasculinaViewModel.swift; sourceTree = "<group>"; };
+		C09F49552B5F0BB8007E1639 /* DepilacionLaserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepilacionLaserViewModel.swift; sourceTree = "<group>"; };
+		C09F49572B5F0BC8007E1639 /* PromocionesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesViewModel.swift; sourceTree = "<group>"; };
+		C09F497E2B5FFAC0007E1639 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09F490F2B5F07DA007E1639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09F49692B5FF480007E1639 /* FirebaseDatabaseSwift in Frameworks */,
+				C09F49672B5FF480007E1639 /* FirebaseDatabase in Frameworks */,
+				C09F49752B5FF480007E1639 /* FirebaseInstallations in Frameworks */,
+				C09F495D2B5FF480007E1639 /* FirebaseAppCheck in Frameworks */,
+				C09F496D2B5FF480007E1639 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C09F497B2B5FF480007E1639 /* FirebaseStorage in Frameworks */,
+				C09F497D2B5FF480007E1639 /* FirebaseStorageCombine-Community in Frameworks */,
+				C09F49612B5FF480007E1639 /* FirebaseAuth in Frameworks */,
+				C09F496F2B5FF480007E1639 /* FirebaseFirestoreSwift in Frameworks */,
+				C09F49652B5FF480007E1639 /* FirebaseCrashlytics in Frameworks */,
+				C09F496B2B5FF480007E1639 /* FirebaseFirestore in Frameworks */,
+				C09F495F2B5FF480007E1639 /* FirebaseAppDistribution-Beta in Frameworks */,
+				C09F49712B5FF480007E1639 /* FirebaseFunctions in Frameworks */,
+				C09F49632B5FF480007E1639 /* FirebaseAuthCombine-Community in Frameworks */,
+				C09F49792B5FF480007E1639 /* FirebaseMessaging in Frameworks */,
+				C09F49732B5FF480007E1639 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				C09F49772B5FF480007E1639 /* FirebaseMLModelDownloader in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C09F49092B5F07DA007E1639 = {
+			isa = PBXGroup;
+			children = (
+				C09F492D2B5F0959007E1639 /* AppDelegate.swift */,
+				C09F49152B5F07DA007E1639 /* Dermacycle2App.swift */,
+				C09F49272B5F088A007E1639 /* Launch Screen.storyboard */,
+				C09F497E2B5FFAC0007E1639 /* GoogleService-Info.plist */,
+				C09F49142B5F07DA007E1639 /* Dermacycle2 */,
+				C09F49132B5F07DA007E1639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C09F49132B5F07DA007E1639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09F49122B5F07DA007E1639 /* Dermacycle2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09F49142B5F07DA007E1639 /* Dermacycle2 */ = {
+			isa = PBXGroup;
+			children = (
+				C09F49232B5F07F6007E1639 /* VIEW */,
+				C09F49172B5F07DA007E1639 /* ContentView.swift */,
+				C09F49292B5F090F007E1639 /* TratamientosView.swift */,
+				C09F492B2B5F0921007E1639 /* UserView.swift */,
+				C09F492F2B5F0975007E1639 /* PromocionesView.swift */,
+				C09F49312B5F097F007E1639 /* NotificacionesView.swift */,
+				C09F49332B5F0989007E1639 /* CalendarioView.swift */,
+				C09F49242B5F07FE007E1639 /* MODEL */,
+				C09F49252B5F080C007E1639 /* VIEWMODEL */,
+				C09F49262B5F0828007E1639 /* components */,
+				C09F49192B5F07DC007E1639 /* Assets.xcassets */,
+				C09F491B2B5F07DC007E1639 /* Preview Content */,
+			);
+			path = Dermacycle2;
+			sourceTree = "<group>";
+		};
+		C09F491B2B5F07DC007E1639 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C09F491C2B5F07DC007E1639 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C09F49232B5F07F6007E1639 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				C09F49482B5F0AFF007E1639 /* Authview */,
+				C09F49472B5F0ACD007E1639 /* Tratamientos */,
+				C04FECDA2B5FFF45008715F9 /* HomeView.swift */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		C09F49242B5F07FE007E1639 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				C09F49352B5F09C5007E1639 /* TratamientosModelo.swift */,
+				C09F49372B5F09D1007E1639 /* Usuario.swift */,
+				C09F49392B5F09DE007E1639 /* ContactoModelo.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		C09F49252B5F080C007E1639 /* VIEWMODEL */ = {
+			isa = PBXGroup;
+			children = (
+				C09F494D2B5F0B51007E1639 /* AuthViewModel.swift */,
+				C09F494F2B5F0B75007E1639 /* TratamientosCorporalesViewModel.swift */,
+				C09F49512B5F0B86007E1639 /* TratamientosFacialesViewModel.swift */,
+				C09F49532B5F0BA9007E1639 /* EsteticaMasculinaViewModel.swift */,
+				C09F49552B5F0BB8007E1639 /* DepilacionLaserViewModel.swift */,
+				C09F49572B5F0BC8007E1639 /* PromocionesViewModel.swift */,
+			);
+			path = VIEWMODEL;
+			sourceTree = "<group>";
+		};
+		C09F49262B5F0828007E1639 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				C09F493B2B5F0A2F007E1639 /* InputView.swift */,
+				C09F493D2B5F0A46007E1639 /* SettingsNewRoad.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		C09F49472B5F0ACD007E1639 /* Tratamientos */ = {
+			isa = PBXGroup;
+			children = (
+				C09F49452B5F0AC7007E1639 /* EsteticaMasculinaView.swift */,
+				C09F49432B5F0AA3007E1639 /* DepilacionLaserView.swift */,
+				C09F49412B5F0A8A007E1639 /* TratamientosCorporalesView.swift */,
+				C09F493F2B5F0A7C007E1639 /* TratamientosFacialesView.swift */,
+			);
+			path = Tratamientos;
+			sourceTree = "<group>";
+		};
+		C09F49482B5F0AFF007E1639 /* Authview */ = {
+			isa = PBXGroup;
+			children = (
+				C09F49492B5F0B1B007E1639 /* RegistracionView.swift */,
+				C09F494B2B5F0B2C007E1639 /* ProfileView.swift */,
+				C04FECDC2B62B863008715F9 /* terminosYcondicionesView.swift */,
+			);
+			path = Authview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09F49112B5F07DA007E1639 /* Dermacycle2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09F49202B5F07DC007E1639 /* Build configuration list for PBXNativeTarget "Dermacycle2" */;
+			buildPhases = (
+				C09F490E2B5F07DA007E1639 /* Sources */,
+				C09F490F2B5F07DA007E1639 /* Frameworks */,
+				C09F49102B5F07DA007E1639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dermacycle2;
+			packageProductDependencies = (
+				C09F495C2B5FF480007E1639 /* FirebaseAppCheck */,
+				C09F495E2B5FF480007E1639 /* FirebaseAppDistribution-Beta */,
+				C09F49602B5FF480007E1639 /* FirebaseAuth */,
+				C09F49622B5FF480007E1639 /* FirebaseAuthCombine-Community */,
+				C09F49642B5FF480007E1639 /* FirebaseCrashlytics */,
+				C09F49662B5FF480007E1639 /* FirebaseDatabase */,
+				C09F49682B5FF480007E1639 /* FirebaseDatabaseSwift */,
+				C09F496A2B5FF480007E1639 /* FirebaseFirestore */,
+				C09F496C2B5FF480007E1639 /* FirebaseFirestoreCombine-Community */,
+				C09F496E2B5FF480007E1639 /* FirebaseFirestoreSwift */,
+				C09F49702B5FF480007E1639 /* FirebaseFunctions */,
+				C09F49722B5FF480007E1639 /* FirebaseFunctionsCombine-Community */,
+				C09F49742B5FF480007E1639 /* FirebaseInstallations */,
+				C09F49762B5FF480007E1639 /* FirebaseMLModelDownloader */,
+				C09F49782B5FF480007E1639 /* FirebaseMessaging */,
+				C09F497A2B5FF480007E1639 /* FirebaseStorage */,
+				C09F497C2B5FF480007E1639 /* FirebaseStorageCombine-Community */,
+			);
+			productName = Dermacycle2;
+			productReference = C09F49122B5F07DA007E1639 /* Dermacycle2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09F490A2B5F07DA007E1639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C09F49112B5F07DA007E1639 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C09F490D2B5F07DA007E1639 /* Build configuration list for PBXProject "Dermacycle2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09F49092B5F07DA007E1639;
+			packageReferences = (
+				C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C09F49132B5F07DA007E1639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09F49112B5F07DA007E1639 /* Dermacycle2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09F49102B5F07DA007E1639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09F497F2B5FFAC0007E1639 /* GoogleService-Info.plist in Resources */,
+				C09F49282B5F088A007E1639 /* Launch Screen.storyboard in Resources */,
+				C09F491D2B5F07DC007E1639 /* Preview Assets.xcassets in Resources */,
+				C09F491A2B5F07DC007E1639 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09F490E2B5F07DA007E1639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09F494E2B5F0B51007E1639 /* AuthViewModel.swift in Sources */,
+				C09F492A2B5F090F007E1639 /* TratamientosView.swift in Sources */,
+				C04FECDD2B62B863008715F9 /* terminosYcondicionesView.swift in Sources */,
+				C09F49302B5F0975007E1639 /* PromocionesView.swift in Sources */,
+				C09F49382B5F09D1007E1639 /* Usuario.swift in Sources */,
+				C09F49542B5F0BA9007E1639 /* EsteticaMasculinaViewModel.swift in Sources */,
+				C09F49462B5F0AC7007E1639 /* EsteticaMasculinaView.swift in Sources */,
+				C09F49582B5F0BC8007E1639 /* PromocionesViewModel.swift in Sources */,
+				C09F49182B5F07DA007E1639 /* ContentView.swift in Sources */,
+				C09F49162B5F07DA007E1639 /* Dermacycle2App.swift in Sources */,
+				C09F49342B5F0989007E1639 /* CalendarioView.swift in Sources */,
+				C09F493E2B5F0A46007E1639 /* SettingsNewRoad.swift in Sources */,
+				C09F49362B5F09C5007E1639 /* TratamientosModelo.swift in Sources */,
+				C09F493A2B5F09DE007E1639 /* ContactoModelo.swift in Sources */,
+				C09F49562B5F0BB8007E1639 /* DepilacionLaserViewModel.swift in Sources */,
+				C09F49322B5F097F007E1639 /* NotificacionesView.swift in Sources */,
+				C04FECDB2B5FFF45008715F9 /* HomeView.swift in Sources */,
+				C09F493C2B5F0A2F007E1639 /* InputView.swift in Sources */,
+				C09F49422B5F0A8A007E1639 /* TratamientosCorporalesView.swift in Sources */,
+				C09F49502B5F0B75007E1639 /* TratamientosCorporalesViewModel.swift in Sources */,
+				C09F49402B5F0A7C007E1639 /* TratamientosFacialesView.swift in Sources */,
+				C09F492E2B5F0959007E1639 /* AppDelegate.swift in Sources */,
+				C09F49442B5F0AA3007E1639 /* DepilacionLaserView.swift in Sources */,
+				C09F494C2B5F0B2C007E1639 /* ProfileView.swift in Sources */,
+				C09F494A2B5F0B1B007E1639 /* RegistracionView.swift in Sources */,
+				C09F492C2B5F0921007E1639 /* UserView.swift in Sources */,
+				C09F49522B5F0B86007E1639 /* TratamientosFacialesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C09F491E2B5F07DC007E1639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C09F491F2B5F07DC007E1639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09F49212B5F07DC007E1639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dermacycle2/Preview Content\"";
+				DEVELOPMENT_TEAM = X93XUQKD34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancoCarreiro.Dermacycle2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09F49222B5F07DC007E1639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dermacycle2/Preview Content\"";
+				DEVELOPMENT_TEAM = X93XUQKD34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancoCarreiro.Dermacycle2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09F490D2B5F07DA007E1639 /* Build configuration list for PBXProject "Dermacycle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09F491E2B5F07DC007E1639 /* Debug */,
+				C09F491F2B5F07DC007E1639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09F49202B5F07DC007E1639 /* Build configuration list for PBXNativeTarget "Dermacycle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09F49212B5F07DC007E1639 /* Debug */,
+				C09F49222B5F07DC007E1639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C09F495C2B5FF480007E1639 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		C09F495E2B5FF480007E1639 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		C09F49602B5FF480007E1639 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C09F49622B5FF480007E1639 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C09F49642B5FF480007E1639 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C09F49662B5FF480007E1639 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C09F49682B5FF480007E1639 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		C09F496A2B5FF480007E1639 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C09F496C2B5FF480007E1639 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C09F496E2B5FF480007E1639 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C09F49702B5FF480007E1639 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C09F49722B5FF480007E1639 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		C09F49742B5FF480007E1639 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		C09F49762B5FF480007E1639 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		C09F49782B5FF480007E1639 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		C09F497A2B5FF480007E1639 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C09F497C2B5FF480007E1639 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C09F495B2B5FF480007E1639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C09F490A2B5F07DA007E1639 /* Project object */;
+}
